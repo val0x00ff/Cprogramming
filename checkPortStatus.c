@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		return 1;
 	}
     char *hostname = argv[1];
-	 int prt_number = atoi(argv[2]);
+    int prt_number = atoi(argv[2]);
 
     int sockfd;
     struct sockaddr_in serv_addr;
